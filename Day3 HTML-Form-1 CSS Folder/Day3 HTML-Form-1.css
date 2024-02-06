@@ -1,0 +1,399 @@
+
+/*created by online student .ie*/
+/*photos from freepik.com*/
+
+body,
+h1,h2,h3,h4,h5,h6,
+p,
+ul,li,nav,
+fieldset, legend,
+textarea
+
+{
+    padding: 0;
+    margin: 0;
+}
+
+body.Day3-body{
+
+   max-width: 1700px;
+   width: 100%;
+   height: 100vh;
+   background-color: lightblue;
+   position: relative;
+
+   display: flex;
+   flex-direction: column;
+}
+
+div.Day3-semi-transparent {
+    max-width: 1700px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    color: white;
+    font-size: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(https://img.freepik.com/free-photo/majestic-landscape-view-land-with-windmill-generating-electricity-cloudy-sky_181624-45986.jpg?w=1060&t=st=1706869343~exp=1706869943~hmac=46f0f7362bb5324fe9fea2da7099185515f4e3a5013a4b1c83dd4c77b5d16c80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    position: absolute;
+    z-index: -1;
+}
+
+header.Day3-header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(135, 180, 221, 1);
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 80px;
+    color: white;
+
+    -webkit-box-shadow: 0px -1px 15px 5px #000000; 
+    box-shadow: 0px -1px 15px 5px #000000;
+
+    position: relative;
+}
+  /*----------------------------------------------------------------*/
+
+ /*propeller fan START part-1*/
+
+  .Day3-propeller-fan-wrapper{
+    width: 80px;
+    height: 80px;
+    /*background-color: green;*/
+    position: absolute;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Day3-propeller-fan-wrapper img{
+    width: 100%;
+    height: 100%;
+    /*background-color: red;*/
+    border-radius: 50%;
+    display: inline-block;
+    order: 2px solid black;
+  }
+
+  /*propeller fan END part-1*/
+
+  /*----------------------------------------------------------------*/
+
+  /*logo START*/
+
+.Day3-logo-wrapper{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+  
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 5px double #1C6EA4;
+}
+
+.Day3-logo-wrapper img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/*logo END*/
+
+  /*----------------------------------------------------------------*/
+
+.Day3-header span{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgb(44, 204, 4);
+    border: 2px solid white;
+    display: inline-block;
+    margin-top: 48px;
+}
+
+nav.Day3-nav{
+    display: flex;
+    justify-content: center;
+    /*background-color: orange;*/
+    margin-top: 20px;
+}
+
+ul.Day3-ul{
+    list-style-type: none;
+    /*background-color: green;*/
+    display: flex;
+    gap: 10px;
+}
+
+li.Day3-li{
+    background-color: #fff;
+    width: 300px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    border: 3px solid rgb(167, 167, 167);
+}
+
+.Day3-li a{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.fa-envelope{
+    margin-left: 10px;
+    color:rgb(167, 167, 167) ;
+}
+
+main.Day3-main{
+position: relative;
+width: 100%;
+height: 100%;
+/*background-color: rgba(0, 0, 0, 0.5);*/
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+color: white;
+font-size: 50px;
+font-weight: 900;
+text-shadow: 3px 4px 2px rgba(0,0,0,0.6);
+}
+
+main.Day3-main aside {
+    width: 120px;
+    height: 120px;
+    bottom: 5%;
+    left: 2%;
+    transform: rotate(-25deg);
+
+    position: absolute;
+    font-size: 12px;
+    background-color: green;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    text-align: center;
+    border: 5px dotted lightgreen;
+}
+
+footer.Day3-footer{
+    width: 100%;
+    height: 40px;
+    margin-top: auto;
+    background-color: #f5d49e;
+
+    -webkit-box-shadow: 0px 3px 15px 5px #000000; 
+    box-shadow: 0px 3px 15px 5px #000000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer.Day3-footer a {
+    color:#6d4607;
+}
+
+/* Page 2 <form> styles START ---------------------------------------------*/
+
+main.Day3-main form{
+    /*background-color: #9ba754;*/
+    max-width: 400px;
+    width: 100%;
+    border: 10px solid #ffffff;
+
+    font-size: initial;
+    text-shadow: none;
+    color: black;
+    display: block;
+    box-sizing: border-box;
+
+    background-image: url(https://img.freepik.com/free-vector/wind-energy-concept-illustration_114360-14210.jpg?w=740&t=st=1706880690~exp=1706881290~hmac=70dbe778a9e04859fcd0da4702212448fca9c338f9b2edfcab8515a8b4c43ea1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  .red-asterisk{
+    color: red;
+  }
+
+  input {
+    border: 1px solid gray;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  input:focus{
+    background-color: #e4e4e4;
+  }
+
+  br.br-br{
+    margin-bottom: 10px;
+  }
+
+/* <textarea>  START ---------------------------------------------*/
+textarea.text-text-area{
+    resize: none;
+    border: 1px solid gray;
+    min-height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.fake-textarea{
+  display: none;
+}
+
+  textarea:focus{
+    background-color: #e4e4e4;
+  }
+  /* <textarea>  END ---------------------------------------------*/
+
+form.Day3-form-wrapper fieldset{
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0px 5px 5px;
+}
+
+  form.Day3-form-wrapper fieldset legend{
+      margin: auto;
+      width: 50%;
+      text-align: center;
+      font-size: 20px;
+      order: 1px solid black;
+  }
+
+  div.fieldset-wrapper{
+    min-height: 190px;
+    /*background-color: green;*/
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  button.Day3-button-contact-form{
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+  }
+
+  button.Day3-button-contact-form:hover{
+    background-color: #c82020;
+  }
+/* Page 2 <form> styles END ---------------------------------------------*/
+
+
+/* propeller fan rotate START part-2 */
+  img.Day3-rotate-fan {
+    animation: rotation 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  /* propeller fan rotate END part-2 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+  
+
+
+
+
+  
+
+

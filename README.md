@@ -1,2 +1,2 @@
-# day3-green-enegry-form.github.io
+# day3-green-enegry-form
 green energy &lt;form>

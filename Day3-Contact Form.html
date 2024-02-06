@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Day3 HTML-Form-1 CSS Folder/Day3 HTML-Form-1.css">
+    <title>Day3 HTML Form 1</title>
+    <!-- created by online student .ie -->
+    <!-- photos from freepik.com and pixabay.com-->
+</head>
+
+<body class="Day3-body">
+
+    <div class="Day3-semi-transparent"></div>
+
+    <header class="Day3-header">GREEN COMPANY <span></span>
+        <div class="Day3-propeller-fan-wrapper">
+            <img class="Day3-propeller-img  Day3-rotate-fan"
+                src=" https://cdn.pixabay.com/photo/2012/04/16/13/02/propeller-35917_1280.png" alt="propeller fan">
+        </div>
+
+        <div class="Day3-logo-wrapper">
+            <img class="Day3-logo-img"
+                src=" https://img.freepik.com/free-vector/gradient-renewable-energy-logo_23-2150054306.jpg?w=740&t=st=1706945134~exp=1706945734~hmac=197cd4b8c6cc2a72bc3816750807c7a4e8e88e40a9698d7227d7722d5723a15a"
+                alt="logo">
+        </div>
+    </header>
+
+    <nav class="Day3-nav">
+        <ul class="Day3-ul">
+            <li class="Day3-li"><a href="Day3 HTML-Form-1.html">TO HOME PAGE</a></li>
+            <!-- <li class="Day3-li"><a href=" https://en.wikipedia.org/wiki/Wind_turbine ">CONTACT FORM</a></li> -->
+        </ul>
+    </nav>
+
+    <main class="Day3-main">
+        <form class="Day3-form-wrapper" action="">
+            <fieldset>
+                <legend>Contact Form</legend>
+                <div class="fieldset-wrapper">
+                    <label for="some_text">Name <br> </label>
+                    <input class="in-in" type="text" id="some_text" name="some_text" placeholder="name"
+                        pattern="[^a-zA-Z].{4,}" title=" only numbers allowed 😁, must contain 5 or more numbers " />
+
+                    <br class="br-br">
+
+                    <label for="email">Email <span class="red-asterisk">*</span> <br> </label>
+                    <input type="email" id="email" name="email" placeholder="email" required />
+
+                    <br class="br-br">
+
+                    <label for="email">Enter second email <span class="red-asterisk">*</span> </label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="second email" maxlength="40"
+                        pattern=".+@programmer\.pro" title="Wrong email format. Type this one: example@programmer.pro"
+                        required />
+
+                    <br class="br-br">
+
+                    <!-- some bug in the <textarea></textarea> № 2 -->
+                    <!-- placeholder="" is not showing in the <textarea> № 2 -->
+                    <!-- i had to add a fake <textarea> № 1, then the placeholder="" in the <textarea> № 2 works-->
+                    <textarea class="fake-textarea" name="" id="" cols="30" rows="10"></textarea>
+                    <textarea class="text-text-area" name="" id="" placeholder="type your message"
+                        minlength="20"></textarea>
+
+                    <br class="br-br">
+
+                    <button class="Day3-button-contact-form">SEND THE FORM</button>
+                    <!--  <input type="submit" value="send energy" name="username"/>  -->
+                </div>
+            </fieldset>
+        </form>
+
+        <aside> Desktop version <br> The website <br> is not adaptive, responsive </aside>
+
+    </main>
+
+    <footer class="Day3-footer"><a href=" https://github.com/OnlineStudentHere ">created by online student .ie</a>
+    </footer>
+
+</body>
+
+</html>
